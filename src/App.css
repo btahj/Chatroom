@@ -1,0 +1,266 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  max-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgray;
+  height: 75vh;
+}
+#login-h2 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size: 25px;
+  margin: 10px auto;
+}
+
+#signup-h2 {
+  padding-bottom: 5px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size: 25px;
+  margin: 10px auto;
+}
+
+.user {
+  display: flex;
+  border-style: hidden;
+  border-radius: 8%;
+  margin: 5px 5px;
+  padding: 5px;
+  height: 5vh;
+  background-color:lightgray;
+  color:black;
+
+}
+
+.pass {
+  display: flex;
+  border-style: hidden;
+  border-radius: 8%;
+  margin: 5px 5px;
+  padding: 5px;
+  height: 5vh;
+  background-color:lightgray;
+  color:black;
+
+}
+
+.btn {
+  display: flex;
+  border-style: hidden;
+  border-radius: 8%;
+  margin: 5px 5px;
+  padding: 5px;
+  height: 5vh;
+  background-color:lightgray;
+  color:black;
+}
+
+.top-nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 9vh;
+  background-color: #282c34;
+}
+
+#dropdown-item-button {
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 5vh;
+  color: black;
+  background-color: white;
+}
+
+#Home {
+  text-decoration: none;
+  margin: 2px 1px 2px;
+  padding: 1px 3px;
+  display: inline-flex;
+  align-items: center;
+  color: whitesmoke;
+  background-color: black;
+}
+
+#Signup {
+  text-decoration: none;
+  margin: 2px 1px 2px;
+  padding: 1px 3px;
+  display: inline-flex;
+  align-items: center;
+  color: whitesmoke;
+  background-color: black;
+}
+
+#Login {
+  text-decoration: none;
+  margin: 2px 1px 2px;
+  padding: 1px 3px;
+  display: inline-flex;
+  align-items: center;
+  color: whitesmoke;
+  background-color: black;
+}
+
+#Chatroom {
+  text-decoration: none;
+  margin: 2px 1px 2px;
+  padding: 1px 3px;
+  display: inline-flex;
+  align-items: center;
+  color: whitesmoke;
+  background-color: black;
+}
+
+#signup-btn {
+  background: black;
+  color: white;
+  align-content: center;
+  padding: 8px;
+  padding-bottom: 20px;
+  margin: 10px auto;
+}
+
+#login-btn {
+  background: black;
+  color: white;
+  align-content: center;
+  padding: 8px;
+  padding-bottom: 20px;
+  margin: 5px auto;
+}
+
+#email {
+  margin: 5px;
+  margin-left: 35px;
+  align-content: center;
+}
+
+#loginusername {
+  margin: 5px;
+  margin-right: 9.5px;
+  align-content: center;
+}
+
+.chatroom-container {
+  background-color: darkgray;
+  height: 85vh;
+}
+
+.input-container {
+  justify-content: center;
+  height: 12vh;
+}
+
+.post-form {
+  padding-left: 5px;
+  color: black;
+  font-weight: bold
+}
+
+#submit-button {
+  background: black;
+  color: white;
+  align-content: center;
+  padding: 8px;
+  padding-bottom: 20px;
+  margin: 10px auto;
+}
+
+
+.home-page {
+  background-color: darkgray;
+}
+
+.home-page-container {
+  background-color: darkgray;
+  height: 150vh;
+}
+
+
+ol {
+  border-radius: 10px;
+  column-count: 2;
+  column-gap: 65px;
+  column-rule-style: solid;
+  column-rule-width: 3px;
+  background: #ff9999;
+  margin: 0px;
+  padding: 0px;
+  height: 60vh;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  
+}
+
+.ul-item {
+    border-radius: 5px;
+    padding: 0px;
+    background-color: linen ;
+    margin: 0px;
+    height: 10%;
+    min-width: 70vh;
+    text-align: start;
+    display: -webkit-inline-box;
+    padding-left: 5px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.ul-delete-btn {
+  background-color: lightgray;
+  color: red;
+  border: none;
+  margin-right: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  text-align: center
+
+}
+
+.ul-update-btn {
+  background-color: lightgray;
+  color: green;
+  border: none;
+  border-radius: 5px;
+  text-align: center
+}
+
+
+#chat-header {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  max-height: 130vh;
+  margin-top: 15px;
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+#chat-header {
+  margin: 0 auto;
+}
+
